@@ -3,6 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/rollingstone
     username: root
     password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
     tomcat.max-wait: 20000
     tomcat.max-active: 50
     tomcat.max-idle: 20
